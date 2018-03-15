@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-os.chdir("C:/Personal/Python")
+os.chdir("C:/Personal/Deepak/Analytics with Spark/python")
 os.curdir
 
 #Create a SQL Context from Spark context
