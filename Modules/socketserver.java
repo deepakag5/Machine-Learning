@@ -1,4 +1,4 @@
-package com.v2maestros.socketserver;
+package com.sparkmodule.socketserver;
 
 import java.io.*;
 import java.net.*;
@@ -17,7 +17,7 @@ public class socketserver {
 	    PrintStream os;
 	    Socket clientSocket = null;
 	    
-    	Path path = FileSystems.getDefault().getPath("C:/Personal/V2Maestros/Courses/Big Data Analytics with Spark/python", "streamingtweets.txt");
+    	Path path = FileSystems.getDefault().getPath("C:/Personal/Deepak/Analytics with Spark/python", "streamingtweets.txt");
 	    List<String> lines = null;
 		try {
 			lines = Files.readAllLines(path,StandardCharsets.UTF_8);
@@ -63,5 +63,5 @@ public class socketserver {
 }
 
 /* Run command
-java -cp c:\Personal\V2Maestros\JavaWorkSpace\SocketServer\bin com.v2maestros.socketserver.socketserver
+java -cp c:\Personal\Deepak\JavaWorkSpace\SocketServer\bin com.sparkmodule.socketserver.socketserver
 */
