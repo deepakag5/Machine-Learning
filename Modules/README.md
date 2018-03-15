@@ -12,5 +12,6 @@
 * Decision Trees
 * Random Forests
 * Clustering
+## Analytics
 * Recommendations
 * Real Time Tweets Analysis
