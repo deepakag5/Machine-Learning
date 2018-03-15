@@ -3,7 +3,7 @@
 
 import os
 import sys
-os.chdir("C:/Personal/Python")
+os.chdir("C:/Personal/Deepak/Analytics with Spark/python")
 os.curdir
 
 # Configure the environment. Set this up to the directory where
