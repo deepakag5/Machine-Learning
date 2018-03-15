@@ -1,30 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-   Spark with Python
-
-             Copyright : V2 Maestros @2016
-                    
-Code Samples : Spark Machine Learning - Decision Trees
-
-Problem Statement
-*****************
-The input data is the iris dataset. It contains recordings of 
-information about flower samples. For each sample, the petal and 
-sepal length and width are recorded along with the type of the 
-flower. We need to use this dataset to build a decision tree 
-model that can predict the type of flower based on the petal 
-and sepal information.
-
-## Techniques Used
-
-1. Decision Trees 
-2. Training and Testing
-3. Confusion Matrix
-
------------------------------------------------------------------------------
-"""
 import os
-os.chdir("C:/Personal/V2Maestros/Courses/Big Data Analytics with Spark/Python")
+os.chdir("C:/Personal/Deepak/Analytics with Spark/python")
 os.curdir
 
 #Load the CSV file into a RDD
